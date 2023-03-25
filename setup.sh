@@ -164,7 +164,7 @@ echo -ne "[ ${green}INFO${NC} ] Check permission : "
 
 PERMISSION
 if [ -f /home/needupdate ]; then
-red "Your script need to update first !"
+red "Ditolak Mentah-Mentah Akwaokwao"
 exit 0
 elif [ "$res" = "Permission Accepted..." ]; then
 green "Permission Accepted!"
