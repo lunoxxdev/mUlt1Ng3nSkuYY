@@ -17,7 +17,7 @@ commonname=none
 email=admin@sedang.my.id
 
 # simple password minimal
-curl -sS https://raw.githubusercontent.com/Vlukss/multi-ws/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
+curl -sS https://raw.githubusercontent.com/lunoxxdev/mUlt1Ng3nSkuYY/main/ssh/password | openssl aes-256-cbc -d -a -pass pass:scvps07gg -pbkdf2 > /etc/pam.d/common-password
 chmod +x /etc/pam.d/common-password
 
 # go to root
@@ -127,9 +127,9 @@ apt -y install nginx
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/Vlukss/multi-ws/main/ssh/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/lunoxxdev/mUlt1Ng3nSkuYY/main/ssh/nginx.conf"
 rm /etc/nginx/conf.d/vps.conf
-wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/Vlukss/multi-ws/main/ssh/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/lunoxxdev/mUlt1Ng3nSkuYY/main/ssh/vps.conf"
 /etc/init.d/nginx restart
 
 mkdir /etc/systemd/system/nginx.service.d
@@ -140,13 +140,13 @@ service nginx restart
 cd
 mkdir /home/vps
 mkdir /home/vps/public_html
-wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/Vlukss/multi-ws/main/ssh/multiport"
-wget -O /home/vps/public_html/.htaccess "https://raw.githubusercontent.com/Vlukss/multi-ws/main/ssh/.htaccess"
+wget -O /home/vps/public_html/index.html "https://raw.githubusercontent.com/lunoxxdev/mUlt1Ng3nSkuYY/main/ssh/multiport"
+wget -O /home/vps/public_html/.htaccess "https://raw.githubusercontent.com/lunoxxdev/mUlt1Ng3nSkuYY/main/ssh/.htaccess"
 mkdir /home/vps/public_html/ss-ws
 mkdir /home/vps/public_html/clash-ws
 # install badvpn
 cd
-wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/Vlukss/multi-ws/main/ssh/newudpgw"
+wget -O /usr/bin/badvpn-udpgw "https://raw.githubusercontent.com/lunoxxdev/mUlt1Ng3nSkuYY/main/ssh/newudpgw"
 chmod +x /usr/bin/badvpn-udpgw
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7100 --max-clients 500' /etc/rc.local
 sed -i '$ i\screen -dmS badvpn badvpn-udpgw --listen-addr 127.0.0.1:7200 --max-clients 500' /etc/rc.local
@@ -264,7 +264,7 @@ sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dr
 # download script
 cd /usr/bin
 wget -O speedtest "https://raw.githubusercontent.com/Vlukss/src2/main/ssh/speedtest_cli.py"
-wget -O xp "https://raw.githubusercontent.com/Vlukss/multi-ws/main/ssh/xp.sh"
+wget -O xp "https://raw.githubusercontent.com/lunoxxdev/mUlt1Ng3nSkuYY/main/ssh/xp.sh"
 wget -O auto-set "https://raw.githubusercontent.com/Vlukss/multi-ws/main/xray/auto-set.sh"
 chmod +x speedtest
 chmod +x xp
