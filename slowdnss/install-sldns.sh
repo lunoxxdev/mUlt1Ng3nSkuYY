@@ -88,7 +88,7 @@ sleep 2
 install client-sldns.service
 cat > /etc/systemd/system/client-sldns.service << END
 [Unit]
-Description=Client SlowDNS By ARH-PROJECT 
+Description=Client SlowDNS By Lunoxx Project 
 Documentation=t.me/
 After=network.target nss-lookup.target
 

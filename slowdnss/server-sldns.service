@@ -1,5 +1,5 @@
 [Unit]
-Description=SlowDNS By ARH-PROJECT, nameserver= thekillstore.me
+Description=SlowDNS By Lunoxx Project, nameserver= thekillstore.me
 Documentation=https://ssn.my.id
 After=network.target nss-lookup.target
 

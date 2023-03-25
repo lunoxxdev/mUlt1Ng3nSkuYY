@@ -171,7 +171,7 @@ wget -q -O /usr/bin/proxy3.js "https://raw.githubusercontent.com/lunoxxdev/mUlt1
 cat <<EOF > /etc/systemd/system/sshws.service
 [Unit]
 Description=WSenabler
-Documentation=https://ARH-PROJECT.MY.ID
+Documentation=https://Lunoxx Project.MY.ID
 
 [Service]
 Type=simple

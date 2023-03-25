@@ -15,7 +15,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 yell='\e[1;33m'
 NC='\e[0m'
-echo "Installing SSH Websocket None TLS by Arh-Project" | lolcat
+echo "Installing SSH Websocket None TLS by Lunoxx Project" | lolcat
 echo "Progress..." | lolcat
 sleep 3
 
@@ -26,7 +26,7 @@ chmod +x /usr/local/bin/ws-nontls
 # Installing Service
 cat > /etc/systemd/system/ws-nontls.service << END
 [Unit]
-Description=Python Proxy Mod By Arh-Project
+Description=Python Proxy Mod By Lunoxx Project
 Documentation=https://t.me/r1f4n_1122
 After=network.target nss-lookup.target
 
