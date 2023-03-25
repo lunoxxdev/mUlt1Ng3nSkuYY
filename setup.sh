@@ -269,9 +269,9 @@ wget https://raw.githubusercontent.com/Vlukss/multi-ws/main/xray/ins-xray.sh && 
 clear
 wget https://raw.githubusercontent.com/Vlukss/multi-ws/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
-wget https://raw.githubusercontent.com/Vlukss/multi-ws/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/lunoxxdev/mUlt1Ng3nSkuYY/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
-wget https://raw.githubusercontent.com/Vlukss/multi-ws/main/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
+wget https://raw.githubusercontent.com/lunoxxdev/mUlt1Ng3nSkuYY/main/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
 clear
 ### Pasang SlowDNS
 function install_slowdns(){
