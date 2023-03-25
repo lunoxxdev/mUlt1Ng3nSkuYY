@@ -116,7 +116,7 @@ if [ "" = "$PKG_OK" ]; then
   echo -e "[ ${tyblue}NOTES${NC} ] After UDUD"
   sleep 1
   echo -e "[ ${tyblue}NOTES${NC} ] Then run this script again"
-  echo -e "[ ${tyblue}NOTES${NC} ] Notes, Script Vluks Store"
+  echo -e "[ ${tyblue}NOTES${NC} ] Notes, Script Lunoxx Impostor"
   echo -e "[ ${tyblue}NOTES${NC} ] lu ngerti gak kalo ngerti teken enter.."
   read
 else
@@ -212,7 +212,7 @@ clear
 
 yellow "Add Domain for vmess/vless/trojan dll"
 echo "-------------------------------------"
-echo "       Vluks Store "
+echo "       Lunoxx Impostor "
 echo "-------------------------------------"
 read -rp "Input your domain : " -e pp
 echo "$pp" > /root/domain
@@ -327,7 +327,7 @@ fi
 curl -sS ifconfig.me > /etc/myipvps
 
 echo " "
-echo "=====================-[ AutoScript Vluks Store ]-===================="
+echo "=====================-[ AutoScript Lunoxx Impostor ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -372,7 +372,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Vluks Store  ]-==============="
+echo "===============-[ Script Lunoxx Impostor  ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt

@@ -10,7 +10,7 @@ COLBG1="$(cat /etc/ssnvpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's/ /
 ###########- END COLOR CODE -##########
 
 BURIQ () {
-    curl -sS https://raw.githubusercontent.com/Vluks Store/izinvps/main/ip > /root/tmp
+    curl -sS https://raw.githubusercontent.com/Lunoxx Impostor/izinvps/main/ip > /root/tmp
     data=( `cat /root/tmp | grep -E "^### " | awk '{print $2}'` )
     for user in "${data[@]}"
     do
@@ -79,7 +79,7 @@ echo -e " $COLOR1│$NC                                               $COLOR1│
 echo -e " $COLOR1│$NC   ${COLOR1}[00]${NC} • GO BACK${NC}                              $COLOR1│$NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                 • Vluks Store •                 $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                 • Lunoxx Impostor •                 $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e ""
 read -p " Select menu :  "  opt

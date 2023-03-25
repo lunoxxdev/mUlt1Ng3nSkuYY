@@ -83,7 +83,7 @@ echo -e "$COLOR1┌────────────────────�
 red "│  [INFO] Data not found / you never backup"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}              • Vluks Store •                $COLOR1│$NC"
+echo -e "$COLOR1│${NC}              • Lunoxx Impostor •                $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"
@@ -133,12 +133,12 @@ cp -r /root/backup/public_html /home/vps/ &> /dev/null
 cp -r /root/backup/crontab /etc/ &> /dev/null
 cp -r /root/backup/cron.d /etc/ &> /dev/null
 rm -rf /root/backup &> /dev/null
-echo -e "$COLOR1│${NC}  [ ${green}INFO${NC} ] • Done... Successfully - Vluks Store."
+echo -e "$COLOR1│${NC}  [ ${green}INFO${NC} ] • Done... Successfully - Lunoxx Impostor."
 sleep 1
 rm -f /root/backup/backup.zip &> /dev/null
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}              • Vluks Store •                $COLOR1│$NC"
+echo -e "$COLOR1│${NC}              • Lunoxx Impostor •                $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo ""
 read -n 1 -s -r -p "   Press any key to back on menu"

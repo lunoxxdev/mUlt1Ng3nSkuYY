@@ -192,7 +192,7 @@ echo -e "$COLOR1│\033[0m ${Blue} $ssh1     $vmc       $vlx      $trx          
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m                     ⇱ Vluks Store ⇲                         \E[0m"
+echo -e "\E[44;1;39m                     ⇱ Lunoxx Impostor ⇲                         \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e ""
 echo -e "${COLOR1}[01]${NC} • [${YELLOW}SSH${NC}]      ${COLOR1}[08]${NC} • [${YELLOW}BACKUP${NC}]"
@@ -204,7 +204,7 @@ echo -e "${COLOR1}[06]${NC} • [${YELLOW}SET DNS${NC}]  ${COLOR1}[13]${NC} • 
 echo -e "${COLOR1}[07]${NC} • [${YELLOW}THEME${NC}]    ${COLOR1}[14]${NC} • [${YELLOW}CHANGE PW VPS${NC}]"
 echo -e " ${RED}"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[44;1;39m                     ⇱ Vluks Store ⇲                         \E[0m"
+echo -e "\E[44;1;39m                     ⇱ Lunoxx Impostor ⇲                         \E[0m"
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 
 echo -e ""
